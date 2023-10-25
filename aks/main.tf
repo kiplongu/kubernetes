@@ -53,7 +53,7 @@ resource "azurerm_kubernetes_cluster" "ak8s" {
 
   network_profile {
     load_balancer_sku = "Standard"
-    network_plugin    = "kubenet"
+    network_plugin    = "cni"
   }
 
   tags = {
