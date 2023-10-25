@@ -1,21 +1,21 @@
 variable "subscription_id" {
-  default = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx""
+  default = "e7429e9a-a9d0-4b9f-b95a-1e662632434d"
 }
 
 variable "client_id" {
-  default = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx""
+  default = "7c34ffbb-32e3-4fcf-a55f-59be609d059b"
 }
 
 variable "client_secret" {
-  default = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx""
+  default = ""
 }
 
 variable "tenant_id" {
-  default = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx""
+  default = "7c34ffbb-32e3-4fcf-a55f-59be609d059b"
 }
 
 variable "resource_group_name" {
-  default = "foxutech-rg"
+  default = "dev-uamuzi-rg"
 }
 
 variable "agent_count" {
@@ -23,7 +23,7 @@ variable "agent_count" {
 }
 
 variable "username" {
-  default = "foxuadmin"
+  default = "rodgers@uamuzi.app"
 }
 
 variable "password" {
@@ -31,11 +31,11 @@ variable "password" {
 }
 
 variable "dns_prefix" {
-  default = "ak8s"
+  default = "dev-uamuzi-aks-dns"
 }
 
 variable "cluster_name" {
-  default = "ak8s"
+  default = "dev-uamuzi-aks"
 }
 
 variable "location" {
@@ -43,7 +43,7 @@ variable "location" {
 }
 
 variable "log_analytics_workspace_name" {
-  default = "foxLogAnalyticsWorkspaceName"
+  default = "uamuzi-Log-Analytics-Workspace"
 }
 
 variable "log_analytics_workspace_sku" {

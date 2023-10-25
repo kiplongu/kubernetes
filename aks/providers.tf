@@ -10,10 +10,10 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name  = "foxutech"
-    storage_account_name = "foxtfstate"
-    container_name       = "tfstate"
-    key                  = "foxutech.microsoft.tfstate"
+    resource_group_name  = "uamuzi_rg"
+    storage_account_name = "uamuzitfstate"
+    container_name       = "tfstate-container"
+    key                  = "uamuzi.microsoft.tfstate"
   }
 }
 
